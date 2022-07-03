@@ -1,0 +1,37 @@
+.container,
+.smallContainer {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 20px 0px;
+  z-index: 200;
+  background: var(--app-white);
+}
+
+.smallContainer img {
+  height: 30px;
+  width: auto;
+}
+
+.search {
+  display: inline-block;
+  background-color: var(--app-grey);
+  padding: 8px 20px;
+  border-radius: 16px;
+}
+
+.search input {
+  border: none;
+  outline: none;
+  background: inherit;
+  margin-left: 6px;
+  font-size: 12px;
+}
+
+.loginText {
+  font-size: 12px;
+}
+
+.logoText {
+  font-size: 12px;
+}

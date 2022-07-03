@@ -1,0 +1,8 @@
+.container {
+  width: 100%;
+  background-color: var(--app-brown);
+  text-align: center;
+  color: var(--app-white);
+  font-size: 10px;
+  padding: 25px 0px;
+}
