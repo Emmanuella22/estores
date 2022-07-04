@@ -10,7 +10,7 @@
   width: 400px;
   padding: 10px;
   font-family: "Montserrat";
-  
+  bottom: 20px;
 }
 
 .btn_continue {
@@ -23,7 +23,6 @@
   margin: 2em;
   background: #776644;
   border-radius: 10px;
-  
 }
 
 .btn_login {
