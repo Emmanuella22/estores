@@ -1,70 +1,87 @@
 .login_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1.5em auto;
   background: #ffffff;
-  box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
-  width: 409px;
-  height: 460px;
-  position: absolute;
-  left: 476px;
-  top: 214px;
-  padding: 15px;
-  font-family: Montserrat;
+  width: 400px;
+  padding: 10px;
+  font-family: "Montserrat";
+  
 }
 
-.big_btn_text {
+.btn_continue {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 72px;
+  margin: 2em;
+  background: #776644;
+  border-radius: 10px;
+  
+}
+
+.btn_login {
+  box-sizing: border-box;
+  width: 80%;
+  height: 72px;
+  margin: 0.125em;
+  background: #f8f8f8;
+  border: 1px solid rgba(189, 189, 189, 0.19);
+  border-radius: 10px;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn_google {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 140px;
+  margin: 0.5em;
+  background: rgba(235, 235, 235, 0.36);
+  border: 1px solid rgba(189, 189, 189, 0.26);
+  border-radius: 10px;
+}
+
+.btn_facebook {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 140px;
+  height: 72px;
+  margin: 0.5em;
+  background: rgba(235, 235, 235, 0.36);
+  border: 1px solid rgba(189, 189, 189, 0.26);
+  border-radius: 10px;
+}
+
+.btn_continue_main {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
   line-height: 22px;
-  color: #ffffff;
-  background-color: #776644;
-  justify-content: center;
+  color: white;
 }
 
-.small_btn_text {
+.btn_continue_sub {
   font-family: "Montserrat";
   font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 22px;
-  color: #ffffff;
-  background-color: #776644;
-  justify-content: center;
-}
-
-.btn {
-  background-color: #776644;
-  color: #776644;
-  justify-content: center;
-  font-family: "Montserrat";
-}
-.LockIcon {
-  position: absolute;
-  left: 18.47%;
-  right: 18.48%;
-  top: 0%;
-  bottom: 0%;
-}
-h5 {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 22px;
-}
-p{
-
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 17px;
-color: #000000;
-}
-.FacebookIcon {
- box-sizing: border-box; 
- background: rgba(235, 235, 235, 0.36);
-border: 1px solid rgba(189, 189, 189, 0.26);
-border-radius: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: white;
 }

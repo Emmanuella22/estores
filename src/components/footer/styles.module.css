@@ -1,8 +1,12 @@
 .container {
+  position: absolute;
+  bottom: 0;
   width: 100%;
   background-color: var(--app-brown);
   text-align: center;
   color: var(--app-white);
   font-size: 10px;
   padding: 25px 0px;
+  /* margin-top: 100%; */
+
 }

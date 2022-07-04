@@ -1,5 +1,6 @@
 import React from "react";
 import { Footer, Header } from "../components";
+import { Login } from "../pages";
 
 const AppLayout = ({ children }) => {
   return (
@@ -7,6 +8,7 @@ const AppLayout = ({ children }) => {
       <Header />
       {children}
       <Footer />
+    
     </>
   );
 };
